@@ -66,3 +66,37 @@ footer{
   height: 50px;
   background-color: #AAAAAA;
 }
+
+@media screen and (max-width: 768px) {
+  header{
+    width: 100%;
+  }
+
+  .item-box{
+    width: 90%;
+    padding-bottom:20px;
+    margin: 20px auto;
+  }
+
+  .item-box:last-child{
+    padding-bottom:0px;
+    margin:auto
+  }
+
+  main {
+    width: 100%;
+    display: block;
+  }
+
+  .item1{
+    height: 150px;
+  }
+
+  .item2{
+    height: 150px;
+  }
+
+  .item3{
+    height: 150px;
+  }
+}
